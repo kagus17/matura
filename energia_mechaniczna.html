@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <title>Energia Mechaniczna</title>
+</head>
+<body id="podstrona">
+    <ul>
+        <li>Energia Kinetyczna</li>
+        <li>Energia Całkowita</li>
+        <li><div class="collapsible">Energia potencjalna</div>
+            <div class="content">
+            <ul class="zawartosc"> 
+                <li>
+                    <h3>Teoria</h3>
+                    <p class='teks_p'>Źródłami pola grawitacyjnego są ciała posiadające masę. Najdokładniejszy opis pola grawitacyjnego podaje ogólna teoria względności. W jednorodnym polu grawitacyjnym [edytuj | edytuj kod]. Dla niezbyt dużych wysokości i niezbyt dużych odległości (znacznie mniejszych od promienia Ziemi) można przyjąć, że pole grawitacyjne Ziemi w rozpatrywanym obszarze jest jednorodnym polem o kierunku pionowym i zwrocie w dół. Za poziom odniesienia można przyjąć dowolny punkt. Wtedy wszystkie punkty na poziomie odniesienia mają zerową energię potencjalną. </p>
+                </li>
+                <li>
+                    <h3>Wzór</h3>
+                    <p class='teks_p'>Energia potencjalna ciała o masie m umieszczonego na wysokość h nad poziomem odniesienia jest równa pracy wykonanej przy podnoszeniu ciała z poziomu odniesienia na tę wysokość </p>
+                    <img src="wzor1.png" alt="Wzór na Energie Potencjalną" class='img1'>
+                </li>
+                <li>
+                    <h3>Zadania</h3>
+                    <p class='teks_p'>Książka o masie [Równanie] leży na półce, która znajduje się [Równanie] nad blatem biurka. Blat znajduje się [Równanie] nad podłogą pokoju, pokój zaś jest na drugim piętrze budynku. Podłoga pokoju znajduje się na wysokości [Równanie]metrów nad poziomem ulicy, Oblicz energię potencjalną grawitacji książki.</p>
+                </li>
+                <li>
+                    <h2>Energia Potencjalna sprężystości</h2>
+                </li>
+                <li>
+                    <h3>Teoria</h3>
+                    <p class='teks_p'>Energia potencjalna sprężystości jest energią układu poddanego działaniu siły sprężystości. Układem tym może być układ makroskopowy, np. ciało zawieszone na sprężynie albo układ mikroskopowy, np. drgająca cząsteczka, wykonująca niewielkie drgania od położenia równowagi, tak że siła powodująca ruch jest siłą sprężystą.</p>
+                </li>
+                <li>
+                    <h3>Wzór</h3>
+                    <p class='teks_p'>Dla małych wartości przemieszczenia x wartość siły sprężystości F wyraża się wzorem</p>
+                    <img src="wzor2.png" alt="Wzór na Energie Potencjalną Sprężystości" class='img2'>
+                </li>
+                <li>
+                    <h3>Zadania</h3>
+                    <p class='teks_p'>Energia potencjalna sprężyny zwiększyła się o 300J w wyniku rozciągnięcia jej o 10cm. Oblicz współczynnik sprężystości tej sprężyny ( wynik podaj w N/m ). </p>
+            
+                </li>
+            
+            </ul>
+        </div>
+        </li>
+        <li>Energia Potencjalna Grawitacji</li>
+    </ul>
+    <h2></h2>
+    <p>
+    </p>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+    </script>
+
+</body>
+</html>
