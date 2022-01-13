@@ -31,8 +31,7 @@ h1{
     color: var(--jasny);
 }
 a:hover{
-  transform: scale(1.05);
-  box-shadow: 10px;
+  transform: scale(1.1);
 }
 .blok{
     text-align: center;
@@ -86,7 +85,7 @@ p{
         flex-flow: column;
     }
     a{
-      height: 25%;
+      height: 25vh;
       width: 100%;
     }
   }
@@ -95,10 +94,10 @@ p{
         flex-flow: column;
     }
     a{
-      height: 25%;
+      height: 25vh;
       width: 100%;
     }
-    h1{
+	h1{
 		font-size: 4vh;
 	}
   }
