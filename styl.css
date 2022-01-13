@@ -31,7 +31,8 @@ h1{
     color: var(--jasny);
 }
 a:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
+  box-shadow: 10px;
 }
 .blok{
     text-align: center;
@@ -95,7 +96,7 @@ p{
     }
     a{
       height: 25vh;
-      width: 100%;
+      width: 100vh;
     }
   }
   @media only screen and (min-width: 600px){
