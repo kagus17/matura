@@ -86,7 +86,7 @@ p{
         flex-flow: column;
     }
     a{
-      height: 25vh;
+      height: 25%;
       width: 100%;
     }
   }
@@ -95,8 +95,8 @@ p{
         flex-flow: column;
     }
     a{
-      height: 25vh;
-      width: 100vh;
+      height: 25%;
+      width: 100%;
     }
   }
   @media only screen and (min-width: 600px){
